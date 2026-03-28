@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .h-img{
     animation: img 1s linear infinite alternate;
 }
@@ -8,4 +9,16 @@
         transform: translateY(-20px);
 
     }
+=======
+.h-img{
+    animation: img 1s linear infinite alternate;
+}
+@keyframes img{
+    from{
+        transform: translateY(0);
+    }to{
+        transform: translateY(-20px);
+
+    }
+>>>>>>> 0a34a105a046607df3897d82f6671151d12f6d70
 }
