@@ -1,0 +1,11 @@
+.h-img{
+    animation: img 1s linear infinite alternate;
+}
+@keyframes img{
+    from{
+        transform: translateY(0);
+    }to{
+        transform: translateY(-20px);
+
+    }
+}
