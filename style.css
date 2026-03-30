@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root{
     --main-color:#37517E
 }
@@ -24,31 +24,5 @@ nav  a{
     width: 50px;
     height: 3px;
     background-color: cyan;
-=======
-:root{
-    --main-color:#37517E
 }
 
-.bg-nav{
-    background-color: var(--main-color);
-}
-nav  a{
-    color: white !important;
-}
-.dropdown-menu a{
-    color: black !important;
-}
-.text-blue{
-  color: var(--main-color);   
-}
-.gray-line{
-    width: 200px;
-    height: 2px;
-    background-color: lightgray;
-}
-.cyan-line{
-    width: 50px;
-    height: 3px;
-    background-color: cyan;
->>>>>>> 0a34a105a046607df3897d82f6671151d12f6d70
-}
