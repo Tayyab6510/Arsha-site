@@ -10,3 +10,15 @@
 
     }
 }
+.card{
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-15px);
+    
+}
+.card:hover h5{
+    color:var(--bs-info) !important;
+    transition: all 0.6s;
+}
