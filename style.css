@@ -26,3 +26,20 @@ nav  a{
     background-color: cyan;
 }
 
+
+.content{
+    margin-top: -30px;
+    position: relative;
+    z-index: 111;
+}
+.action{
+   background: linear-gradient(to right,rgba(55, 81, 126, 0.8),rgba(55, 81, 126, 0.5)),
+   url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp);
+  
+    
+}
+
+.btn-outline-light:hover{
+    background-color: var(--bs-info)!important;
+    border-color: var(--bs-info);
+}

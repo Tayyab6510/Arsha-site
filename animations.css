@@ -22,3 +22,22 @@
     color:var(--bs-info) !important;
     transition: all 0.6s;
 }
+
+.w-card{
+    overflow: hidden;
+}
+.w-card img{
+    transition: all 0.6s;
+    cursor:pointer;
+
+}
+.w-card:hover img{
+    transform: scale(1.2);
+}
+
+.w-card .content{
+    transition: all 0.6s;
+}
+.w-card:hover .content{
+    transform: translateY(-10px);
+}
